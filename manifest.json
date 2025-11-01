@@ -1,4 +1,5 @@
 {
+  "version": "2.8.1",
   "add_mods": [
     {"url": "https://github.com/Nxer/Twist-Space-Technology-Mod/releases/download/0.7.6/TwistSpaceTechnology-0.7.6.jar"},
     {"url": "https://github.com/ABKQPO/GT-Not-Leisure/releases/download/v0.2.0/sciencenotleisure-v0.2.0.jar"},
@@ -8,12 +9,14 @@
     {"url": "https://github.com/GTNewHorizons/worldedit-gtnh/releases/download/v0.0.8/worldedit-v0.0.8.jar"},
     {"url": "https://mediafilez.forgecdn.net/files/2390/420/WorldEditCuiFe-v1.0.7-mf-1.7.10-10.13.4.1566.jar"},
     {"url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-727-GTNH/appliedenergistics2-rv3-beta-727-GTNH.jar"},
-    {"url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.9/hodgepodge-2.7.9.jar"}
+    {"url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.9/hodgepodge-2.7.9.jar"},
+    {"url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/MO9cf9Ur/journeymap-1.7.10-5.2.10-unlimited.jar"}
   ],
   "remove_mods": [
     "darkerer-1.0.6.jar",
     "appliedenergistics2-rv3-beta-691-GTNH.jar",
-    "hodgepodge-2.6.110.jar"
+    "hodgepodge-2.6.110.jar",
+    "journeymap-1.7.10-5.2.10-fairplay.jar"
   ],
   "config_patches": [
     {
@@ -23,7 +26,27 @@
       }
     },
     {
-      
+      "file": "GregTech/WorldGeneration.cfg",
+      "changes": {
+        "B:generateUndergroundDirtGen": false,
+        "B:generateUndergroundGravelGen": false
+      }
+    },
+    {
+      "file": "RandomThings.cfg",
+      "changes": {
+        "D:BloodMoonChance": 0
+      }
+    }
+  ],
+  "config_downloads": [
+    {
+      "url": "https://raw.githubusercontent.com/wrldmap/gtnhpatcher/refs/heads/main/gtnlmain.cfg",
+      "file": "GTNotLeisure/main.cfg"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/wrldmap/gtnhpatcher/refs/heads/main/gameoflight.cfg",
+      "file": "lootgames/games/game_of_light.cfg"
     }
   ]
 }
