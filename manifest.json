@@ -1,0 +1,29 @@
+{
+  "add_mods": [
+    {"url": "https://github.com/Nxer/Twist-Space-Technology-Mod/releases/download/0.7.6/TwistSpaceTechnology-0.7.6.jar"},
+    {"url": "https://github.com/ABKQPO/GT-Not-Leisure/releases/download/v0.2.0/sciencenotleisure-v0.2.0.jar"},
+    {"url": "https://github.com/Keriils/NH-Utilities/releases/download/1.6.3/NHUtilities-1.6.3.jar"},
+    {"url": "https://github.com/asdflj/AE2Things/releases/download/v1.2.5/ae2thing-v1.2.5.jar"},
+    {"url": "https://github.com/reobf/Programmable-Hatches-Mod/releases/download/v0.1.4p5-beta/programmablehatches-0.1.4p5.jar"},
+    {"url": "https://github.com/GTNewHorizons/worldedit-gtnh/releases/download/v0.0.8/worldedit-v0.0.8.jar"},
+    {"url": "https://mediafilez.forgecdn.net/files/2390/420/WorldEditCuiFe-v1.0.7-mf-1.7.10-10.13.4.1566.jar"},
+    {"url": "https://github.com/GTNewHorizons/Applied-Energistics-2-Unofficial/releases/download/rv3-beta-727-GTNH/appliedenergistics2-rv3-beta-727-GTNH.jar"},
+    {"url": "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.9/hodgepodge-2.7.9.jar"}
+  ],
+  "remove_mods": [
+    "darkerer-1.0.6.jar",
+    "appliedenergistics2-rv3-beta-691-GTNH.jar",
+    "hodgepodge-2.6.110.jar"
+  ],
+  "config_patches": [
+    {
+      "file": "enderzoo/EnderZoo.cfg",
+      "changes": {
+        "B:direWolfEnabled": false
+      }
+    },
+    {
+      
+    }
+  ]
+}
